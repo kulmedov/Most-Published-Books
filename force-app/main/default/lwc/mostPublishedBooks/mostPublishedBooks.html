@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Most Published Books" icon-name="standard:article">
+        <div class="custom-container">
+            <template if:true={books}>
+                <lightning-datatable
+                    key-field="Title"
+                    data={books}
+                    columns={columns}
+                    hide-checkbox-column
+                    class="custom-datatable">
+                </lightning-datatable>
+            </template>
+            <template if:false={books}>
+                <p class="no-data-message">
+                    <lightning-icon icon-name="utility:warning" size="small" alternative-text="No data" class="warning-icon"></lightning-icon>
+                    There is no book with an edition of more than 600,000
+                </p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
+

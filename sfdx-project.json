@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "MostPublishedBooks",
+      "versionDescription": "for publishing most published books"
+    }
+  ],
+  "name": "BookPublishing",
+  "namespace": "BookPublishing",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "62.0",
+  "packageAliases": {
+    "MostPublishedBooks": "0HoJ8000000oLkjKAE"
+  }
+}

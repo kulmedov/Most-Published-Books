@@ -1,0 +1,17 @@
+{
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi", "SharedActivities"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "activitiesSettings": {
+      "allowUsersToRelateMultipleContactsToTasksAndEvents": true  
+    }
+  }
+  
+}
