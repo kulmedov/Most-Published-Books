@@ -1,4 +1,5 @@
-// Mevcut schedule'ları temizle
+
+// Clear the current schedules
 for(CronTrigger ct : [SELECT Id FROM CronTrigger WHERE CronJobDetail.Name LIKE 'MostPublishedBooks%']) {
     System.abortJob(ct.Id);
  }
